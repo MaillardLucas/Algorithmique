@@ -3,6 +3,7 @@ Exercice 1:
 
 var mot, motModif, motUtilisateur chaîne de caractere
 DEBUT
+   motModif = ""
    fonction motEnEtoile : chaîne de caractere
       Pour chaque lettre dans mot faire
 	 motModif += motModif + "*"
@@ -17,8 +18,3 @@ DEBUT
    Afficher("Mot original :"), motUtilisateur
    Afficher("Mot modifié :"), motModif
 FIN
-
-
-Exercice 2:
-
-var
