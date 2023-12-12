@@ -1,0 +1,29 @@
+Algorithmique
+Exercice 2: 
+var mot, saisieUtilisateur, motEnMajuscule chaîne de caractère; compterLettres, nombreDeLettres numérique
+
+DEBUT
+   fonction compterLettres(chaîne de caractère)
+      Récupérer longueur(chaîne de caractère)
+   FIN fonction
+
+motSaisis = "#"
+
+   Tant que VRAI
+      Afficher ("Saisissez un mot (ou taper STOP pour arrêter) :")
+      Récupérer mot
+      mot == motSaisis
+
+      Si motEnMajuscules(mot) == "STOP" alors
+	 Quitter Boucle
+      FIN Si
+
+      Ajouter mot à motSaisis
+   FIN Tant que
+
+Afficher ("Nombre de lettre dans chaque mot saisi :")
+Pour chaque mot dans motSaisis
+   nombreDeLettres == compterLettres(chaîne de caractère)
+   Afficher ("'motSaisis' : 'nombreDeLettres' lettres") 
+FIN Pour
+FIN
