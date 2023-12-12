@@ -1,21 +1,21 @@
 Algorithmique
 Exercice 2: 
-var mot, saisieUtilisateur, motEnMajuscule chaîne de caractère; compterLettres, nombreDeLettres numérique
-
+var mot, saisieUtilisateur, motEnMajuscule chaîne de caractère
+var compterLettres, nombreDeLettres numérique
+nbLettre = 0
 DEBUT
-   fonction compterLettres(chaîne de caractère)
-      Récupérer longueur(chaîne de caractère)
+   fonction compterLettres : chaîne de caractère
+      Récupérer nbLettre(chaîne de caractère)
    FIN fonction
 
 motSaisis = "#"
 
-   Tant que VRAI
-      Afficher ("Saisissez un mot (ou taper STOP pour arrêter) :")
+   Tant que stop = 0
+      Afficher ("Saisissez un mot (ou taper stop pour arrêter) :")
       Récupérer mot
-      mot == motSaisis
 
       Si motEnMajuscules(mot) == "STOP" alors
-	 Quitter Boucle
+	 break
       FIN Si
 
       Ajouter mot à motSaisis

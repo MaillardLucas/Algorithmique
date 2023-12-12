@@ -6,7 +6,7 @@ mots_saisis = []
 while True:
     mot = input("Saisissez un mot (ou tapez 'STOP' pour arrêter) : ")
     
-    if mot.upper() == "STOP":
+    if mot.upper() == "stop":
         break
     
     mots_saisis.append(mot)
