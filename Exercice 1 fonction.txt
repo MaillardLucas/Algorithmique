@@ -1,7 +1,7 @@
 Algorithmique : 
 Exercice 1:
 
-var mot, motEnEtoile, motUtilisateur chaîne de caractere
+var mot, motModif, motUtilisateur chaîne de caractere
 DEBUT
    fonction motEnEtoile : chaîne de caractere
       Pour chaque lettre dans mot faire
