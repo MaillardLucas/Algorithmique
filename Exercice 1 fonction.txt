@@ -17,3 +17,8 @@ DEBUT
    Afficher("Mot original :"), motUtilisateur
    Afficher("Mot modifié :"), motModif
 FIN
+
+
+Exercice 2:
+
+var
